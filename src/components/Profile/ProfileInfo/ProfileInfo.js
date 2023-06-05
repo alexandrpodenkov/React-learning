@@ -8,7 +8,7 @@ const ProfileInfo = (props) => {
           <img src="https://www.w3schools.com/css/img_5terre_wide.jpg" />
         </div>
             <div>
-                <Avatar />
+                <Avatar/>
                 <div className={s.descriptionblock}>
                     Description
                 </div>
