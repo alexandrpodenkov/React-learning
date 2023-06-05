@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 25px;
+  min-height: 100vh;
+}
+
+ul{
+  list-style: georgian;
+}
+
+
+
+.img-avatar{
+  width: 200px;
+  height: 200px;
+}
+
+.app-wrapper{
+  display: grid;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  grid-template-areas: 
+  "h h"
+  "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-wrapper-content{
+  grid-area: c;
+  background-color: cornflowerblue;
+}
+
+
+
+
+
